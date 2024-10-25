@@ -1,0 +1,104 @@
+.MainBg {
+    position: relative;
+}
+
+.MainBg img {
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.MainBg .Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-160deg, rgba(0, 0, 0, 0.3), rgba(247, 247, 247, 0.5));
+}
+
+.Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Content h6 {
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.Content h5 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+/* For Control Buttons */
+.Buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 33333;
+}
+
+.PrevButton,
+.NextButton {
+    background: rgba(240, 3, 3, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.PrevButton:hover,
+.NextButton:hover {
+    background: rgba(240, 3, 3, 0.9);
+}
+
+.PrevButton {
+    border-radius: 5px 0 0 5px;
+}
+
+.NextButton {
+    border-radius: 0 5px 5px 0;
+}
+
+@media(max-width: 1400px) {
+    .Content h6 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .Content h6 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 950px) {
+    .MainBg img {
+        height: 60vh;
+    }
+
+    .Content h6 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 650px) {
+
+    .Content h6 {
+        font-size: 20px;
+    }
+
+    .Content h5 {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,68 @@
+.ShootingTraining h6 {
+    font-weight: 800;
+    font-size: 80px;
+    text-shadow: -1px 0 #ae9c9c, 0 1px #b3a4a4, 1px 0 #d0c6c6, 0 -1px #b1a6a6;
+}
+
+
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Box {
+    width: calc(25% - 10px);
+    overflow: hidden;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--boxShadow);
+    padding: 10px;
+}
+
+.Box:hover {
+    box-shadow: rgba(15, 206, 223, 0.6) inset 0px 1px 4px;
+}
+
+.Box h5 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.Box p {
+    font-size: 12px;
+    color: #ccc;
+    margin-block: 10px;
+}
+
+.Box ul li {
+    padding: 5px;
+    margin-block: 3px;
+}
+
+@media(max-width:1500px) {
+    .Box {
+        width: calc(33.33% - 10px);
+    }
+
+}
+
+@media(max-width:1050px) {
+    .Box {
+        width: calc(50% - 10px);
+    }
+
+}
+
+@media(max-width:850px) {
+    .Box {
+        width: calc(100%);
+    }
+
+    .ShootingTraining h6 {
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+}

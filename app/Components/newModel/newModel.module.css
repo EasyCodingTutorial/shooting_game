@@ -1,0 +1,21 @@
+.NewModel {
+    display: flex;
+    justify-content: center;
+    margin-block: 10px;
+}
+
+.NewModel h6 {
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.NewModel img {
+    height: 100%;
+    width: 100%;
+}
+
+@media(max-width:700px) {
+    .NewModel h6 {
+        font-size: 30px;
+    }
+}
