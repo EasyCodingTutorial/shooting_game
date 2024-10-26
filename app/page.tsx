@@ -8,6 +8,7 @@ import { MainBg } from "@/app/Components/MainBg/MainBg";
 import { ShootingTraining } from "@/app/Components/ShootingTraining/ShootingTraining";
 import Wrapper from "./Components/Wrapper/Wrapper";
 import { NewModel } from "./Components/newModel/newModel";
+import { OurBlogs } from "./Components/OurBlogs/OurBlogs";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
         <ShootingTraining />
 
         <NewModel />
+
+        {/* For Blogs */}
+        <OurBlogs />
 
       </Wrapper>
 

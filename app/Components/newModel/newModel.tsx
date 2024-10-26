@@ -12,11 +12,7 @@ export const NewModel = () => {
         <div className={styles.NewModel}>
             <div>
                 <h6>New Launch</h6>
-                <StlViewer
-                    orbitControls
-                    shadows
-                    url={'/assets/newmodel.jpg'}
-                />
+                <img src="/assets/newModel.jpg" alt="" />
             </div>
         </div>
     )

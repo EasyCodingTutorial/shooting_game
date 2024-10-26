@@ -1,0 +1,71 @@
+.Blogs h6 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-block: 10px;
+}
+
+.Blogs .Row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Box {
+    width: calc(25% - 10px);
+    overflow: hidden;
+    height: 500px;
+    box-shadow: var(--boxShadow);
+}
+
+.Box img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.BoxContent {
+    padding: 10px;
+}
+
+.BoxContent h5 {
+    font-weight: 800;
+    font-size: 18px;
+    width: 18ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.BoxContent p {
+    font-size: 12px;
+    color: #ccc;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+@media(max-width:1500px) {
+    .Box {
+        width: calc(33.33% - 10px);
+    }
+
+}
+
+@media(max-width:1050px) {
+    .Box {
+        width: calc(50% - 10px);
+    }
+
+}
+
+@media(max-width:850px) {
+    .Box {
+        width: calc(100%);
+    }
+
+
+
+}
