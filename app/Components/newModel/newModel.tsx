@@ -4,8 +4,6 @@ import React from 'react'
 import styles from './newModel.module.css'
 
 
-// 
-import { StlViewer } from "react-stl-viewer";
 
 export const NewModel = () => {
     return (
