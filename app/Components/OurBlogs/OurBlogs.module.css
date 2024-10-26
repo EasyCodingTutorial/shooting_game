@@ -1,51 +1,51 @@
-.Blogs h6 {
-    font-size: 60px;
-    font-weight: 800;
+.Blogs {
     margin-block: 10px;
 }
 
-.Blogs .Row {
+.Blogs h6 {
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.Row {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-block: 10px;
 }
 
 .Box {
     width: calc(25% - 10px);
     overflow: hidden;
-    height: 500px;
+    height: 450px;
     box-shadow: var(--boxShadow);
 }
 
 .Box img {
-    height: 300px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
 }
 
-.BoxContent {
-    padding: 10px;
+.Box:hover {
+    box-shadow: rgba(15, 206, 223, 0.6) inset 0px 1px 4px;
 }
 
-.BoxContent h5 {
+.Content {
+    padding: 15px;
+}
+
+.Box h5 {
     font-weight: 800;
-    font-size: 18px;
-    width: 18ch;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    font-size: 20px;
 }
 
-.BoxContent p {
+.Box p {
     font-size: 12px;
     color: #ccc;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 6;
-    line-clamp: 6;
-    -webkit-box-orient: vertical;
+    margin-block: 10px;
 }
+
 
 @media(max-width:1500px) {
     .Box {
@@ -65,7 +65,6 @@
     .Box {
         width: calc(100%);
     }
-
 
 
 }

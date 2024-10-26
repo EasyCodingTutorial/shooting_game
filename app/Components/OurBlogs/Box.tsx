@@ -6,7 +6,7 @@ interface BoxProps {
     ImgUrl: string,
     ImgAlt?: string,
     BlogTitle: string,
-    blogDesc: string,
+    BlogDesc: string,
 }
 
 export const Box = (
@@ -14,16 +14,16 @@ export const Box = (
         ImgUrl,
         ImgAlt,
         BlogTitle,
-        blogDesc
+        BlogDesc
     }: BoxProps
 ) => {
     return (
         <div className={styles.Box}>
             <img src={ImgUrl} alt={ImgAlt} />
-            <div className={styles.BoxContent}>
+            <div className={styles.Content}>
                 <h5>{BlogTitle}</h5>
                 <p>
-                    {blogDesc}
+                    {BlogDesc}
                 </p>
             </div>
         </div>

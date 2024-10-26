@@ -1,12 +1,11 @@
 import React from 'react'
 
 import styles from './OurBlogs.module.css'
-
 import { Box } from './Box'
 
-// For Data
-import { BlogsData } from '@/Static/blogsData'
 
+// For Blogs Data
+import { BlogsData } from '@/Static/blogsData'
 
 export const OurBlogs = () => {
     return (
@@ -17,9 +16,10 @@ export const OurBlogs = () => {
                 {
                     BlogsData.map((I) => (
                         <Box
-                            blogDesc={I.blogDesc}
+                            BlogDesc={I.blogDesc}
                             BlogTitle={I.blogTitle}
                             ImgUrl={I.blogImgUrl}
+                            ImgAlt={I.blogTitle}
                             key={I.id}
                         />
                     ))

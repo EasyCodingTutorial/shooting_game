@@ -23,6 +23,7 @@ export default function Home() {
         {/* For Blogs */}
         <OurBlogs />
 
+
       </Wrapper>
 
 
