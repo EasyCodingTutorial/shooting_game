@@ -10,7 +10,7 @@ export const NewModel = () => {
         <div className={styles.NewModel}>
             <div>
                 <h6>New Launch</h6>
-                <img src="/assets/newModel.jpg" alt="" />
+                <img src="/assets/newmodel.jpg" alt="" />
             </div>
         </div>
     )
