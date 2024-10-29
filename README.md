@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Easy Straight Shot Academy
+![logo](https://github.com/user-attachments/assets/74c295d9-1763-44b6-b9d7-f79a03ff2859)
+
+
+
+In this tutorial, we’ll walk through building a fully responsive shooting training website from scratch using Next.js and TypeScript. This project is perfect for those looking to enhance their web development skills and learn how to build a structured and scalable site using modern technologies.
+
+
+## Technologies Used
+ - **Next.js 14**: A React framework for building server-side rendered applications, delivering high performance and SEO benefits.
+ - **TypeScript**: A statically typed superset of JavaScript that improves code quality and development speed.
+ - **React.js**: A popular library for building user interfaces using components.
+ - **React Icons**: A versatile library providing popular icon sets as React components.
+
+## 📌 In This Video:
+
+- Setting up a Next.js project with TypeScript
+- Building responsive components for a training website
+- Implementing best practices for a clean, maintainable codebase
+
+## Note: This video is for educational purposes only. We are not responsible for any illegal use of the information provided.
+
+
 
 ## Getting Started
+Follow these steps to get the project up and running on your local machine:
 
-First, run the development server:
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running `npm install` or `yarn install`.
+4. Start the development server using `npm run dev` or `yarn dev`.
+5. Access the application in your browser at `http://localhost:3000`.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Contributions
+Contributions are welcome! Feel free to open issues for any bugs, feature requests, or suggestions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ 
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Learn By Watching Video ▶️
+[![Watch Demo Video](https://img.youtube.com/vi/Fe0dkj_SWzA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Fe0dkj_SWzA)
